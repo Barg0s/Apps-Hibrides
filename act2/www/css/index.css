@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#llistask {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasca {
+    cursor: pointer;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.accordion-content {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+
+.eliminar {
+    background: #dc3545;
+}
+
+.eliminar:hover {
+    background: #5e0009;
+}
+
+#create-tasca {
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.edit:hover {
+    background: lightgray;
+}
+
+#create-tasca:hover {
+    background: lightgray;
+}
