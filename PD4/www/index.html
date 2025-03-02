@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TABS</title>
+</head>
+<body>
+
+  
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/celeste.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="images/default.png"></a>
+      <a href="#name"><span class="white-text name">David Bargados</span></a>
+      <a href="#email"><span class="white-text email">dbargadosgomez.cf@iesesteveterradas.cat</span></a>
+    </div></li>
+    
+    <li><a href="#!" id="link"><i class="material-icons">search</i>Test 1</a></li>
+    <li><a href="#!" id="link2"><i class="material-icons">auto_stories</i>Test 2</a></li>
+    <li><a href="#!" id="link3"><i class="material-icons">photo_camera</i>Test 3</a></li>
+
+  </ul>
+
+  <!-- Sidenav Trigger -->
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+  <!-- Tabs -->
+  <ul id="tabs-swipe-demo" class="tabs">
+    <li class="tab col s3"><a class="active" href="#test-swipe-1">TEST 1</a></li>
+    <li class="tab col s3"><a href="#test-swipe-2">TEST 2</a></li>
+    <li class="tab col s3"><a href="#test-swipe-3">TEST 3</a></li>
+  </ul> <!--hacer boton de pasar pag-->
+
+
+
+
+
+  <div id="test-swipe-1" class="col s12 blue"></div>
+  <div id="test-swipe-2" class="col s12 red"></div>
+  
+  <div id="test-swipe-3" class="col s12 green"></div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
