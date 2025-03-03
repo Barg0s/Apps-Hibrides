@@ -5,7 +5,6 @@ function onDeviceReady() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("Página cargada y DOM listo");
 
     const elemsSidenav = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elemsSidenav);
