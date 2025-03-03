@@ -34,8 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         photo.src = imageData;
         photo.style.display = "block";
 
-        stream.getTracks().forEach(track => track.stop());
-        stream = null;
+
     });
     const savedImage = localStorage.getItem("foto");
     if (savedImage) {
